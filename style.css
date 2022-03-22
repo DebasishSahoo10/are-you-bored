@@ -38,6 +38,7 @@ body {
 }
 
 #output {
+    font-family: 'Nunito Sans', sans-serif;
     position: absolute;
     right: 30px;
     top: 43%;
