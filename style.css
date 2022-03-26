@@ -48,3 +48,7 @@ body {
     padding: 1rem 0rem;
     font-size: 2rem;
 }
+
+@font-face {
+    font-family: 'Nunito Sans', sans-serif; src: url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,900&display=swap")format("truetype");
+}
