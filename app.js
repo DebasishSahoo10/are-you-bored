@@ -8,6 +8,7 @@ function clickHandler () {
     fetch (serverURL)
     .then (response => response.json())
     .then (json => output.innerText = "Task : " + json.activity)
+    .catch (error => output.innerText = "Some Error Occured")
 }
 
 button.addEventListener ("click", clickHandler)
